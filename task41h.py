@@ -5,4 +5,4 @@
 x = float(input('Введите число:  '))
 d = input('Задайте точность расчета числа:  ')
 lst = d.split(".")
-print(round(x, len(lst[1])))
+print(f'Число {x} с точностью до {d} знаков, равно,{round(x, len(lst[1]))}')
